@@ -52,7 +52,7 @@ response = {
 }
 
 file_id = generate_id()
-db.add(requested["client_id"], requested["data"], requested["key"], file_id)
+db.add(response["client_id"], response["data"], response["key"], file_id)
 
 request = {
 	"file_id": file_id

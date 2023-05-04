@@ -1,11 +1,11 @@
-# In developement !
+## In developement !
 
-# Hidata encryption system
+## Hidata encryption system
 
-## Communication
+### Communication
 RSA encryption, key exchange at the beginning of the commucation (using sockets) and then use websockets to send and recieve data
-## File upload and download
-### Client
+### File upload and download
+#### Client
 * Upload
 ```py
 data = bytes
@@ -42,7 +42,7 @@ response = {
 
 data = decrypt(response["data"], key)
 ```
-### Server
+#### Server
 * Upload (get)
 ```py
 response = {

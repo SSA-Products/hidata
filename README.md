@@ -1,3 +1,4 @@
+# This project is still ongoing! It will be migrated to another repo (hide-sh/hidata) and rewritten in Rust
 ## In developement !
 
 ## Hidata encryption system
